@@ -1,0 +1,139 @@
+.addhouse-container{
+    min-height:95vh;
+    background: linear-gradient(180deg, rgba(9, 14, 58, 0.567) 0%, rgba(10, 14, 53, 0.9) 100%),url('../../images/landingimg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.addhouse-container>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    gap:5%;
+    padding: 2%;
+    min-height: 70vh;
+}
+.addhouse-container-first-part-housedetailsform{
+    width: 100%;
+}
+.addhouse-container-first-part-housedetailsform>input{
+    padding: 2%;
+    margin: 1%;
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+}
+.addhouse-container-first-part-housedetailsform>div input{
+    padding: 2%;
+    margin: 1%;
+    height: 40px;
+    width: 100%;
+}
+.addhouse-container-first-part{
+    width: 50%;
+
+}
+.addhouse-container-second-part{
+    width: 50%;
+}
+.addhouse-container-first-part>h1{
+    text-align: center;
+    color:  #1E2167;
+}
+.addhouse-container-second-part>h1{
+    text-align: center;
+    color:  #1E2167;
+}
+.addhouse-container-input-add-btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.addhouse-container-input-add-btn>button{
+    width: 50%;
+    margin: auto;
+    padding: 8px 15px;
+    background: #1E2167;
+    border-radius: 3px;
+    color: white;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    border: none;
+}
+.addhouse-container-input-add-btn>button:hover{
+    color: #1E2167;
+    background-color: white;
+    cursor: pointer;
+}
+.addhouse-container-input-add-btn-div1{
+    width: 50%;
+    margin: auto;
+    padding: 8px 15px;
+    background: #E7E7E7;
+    border-radius: 3px;
+    color: #1E2167;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    border: none;
+}
+.addhouse-submit-btn{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 2%;
+}
+.addhouse-container-input-add-btn-div1:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.add-house-my-posts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(193, 190, 190,0.3);
+    padding: 2%;
+    margin-top: 0.3%;
+    padding-right: 5%;
+}
+.mypost-contaer-addhouse{
+    height: 55vh;
+    overflow: scroll;
+}
+.add-house-my-posts>button{
+    border: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media screen and (max-width:1100px)
+{
+    .addhouse-container>div{
+        width: 90%;
+    }
+}
+@media screen and (max-width:750px)
+{
+    .addhouse-container>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .addhouse-container-first-part{
+        width: 100%;
+    
+    }
+    .addhouse-container-second-part{
+        width: 100%;
+    }
+}
